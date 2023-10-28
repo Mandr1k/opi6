@@ -10,7 +10,7 @@ int main()
 
         double n;
         double m;
-        int six_cookie_boxes = 6;
+        int six_seven_boxes = 7;
         int eight_candy_boxes;
         
         cout << "\nВведіть масу шести коробки з печивом (в кг): ";
@@ -19,7 +19,7 @@ int main()
         cout << "\nВведіть різницю у масі між коробкою з цукерками та коробкою з печивом (в кг): ";
         cin >> m;
 
-        eight_candy_boxes = ((n / 6) + m) * 8;
+        eight_candy_boxes = ((n / 7) + m) * 8;
 
         cout << "Маса восьми коробок із цукерками: " << eight_candy_boxes << " кг" << endl;
        
